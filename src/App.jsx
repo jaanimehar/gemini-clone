@@ -1,4 +1,4 @@
-import Sidebar from './components/Sidebar/sidebar'
+import Sidebar from './components/Sidebar/Sidebar'
 import Main from './components/Main/main'
 
 
