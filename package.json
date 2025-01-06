@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
+    "express": "^4.21.2",
+    "npm": "^11.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -25,5 +27,18 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
     "vite": "^6.0.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaanimehar/gemini-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaanimehar/gemini-clone/issues"
+  },
+  "homepage": "https://github.com/jaanimehar/gemini-clone#readme"
 }
