@@ -171,7 +171,11 @@
     line-height: 1.8;
 
 }
-@media only screen and (min-width:0px) and (max-width:600px){
+@media only screen and (max-width:600px){
+
+    .main .cards{
+        display: none;
+    }
     .main-bottom input{
         flex: none;
         width: 150px;
