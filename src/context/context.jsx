@@ -124,9 +124,6 @@ const ContextProvider = (props) => {
 
         }
 
-        setLoading(false)
-        setInput("")
-
         if (!input && !uploadedImage) {
             alert("Please enter text or upload an image before sending.");
             return;
@@ -142,6 +139,8 @@ const ContextProvider = (props) => {
         console.log("Message sent:", messageData);
 
         // Clear input and image after sending
+        setLoading(false)
+        setInput("")
         setUploadedImage(null);
     };
 
